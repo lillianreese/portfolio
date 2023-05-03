@@ -1,6 +1,4 @@
 
-function reloadPageOnError() {
-    window.onerror = function () {
-      window.location.reload();
-    };
-  }
+function sendEmail() {
+  window.location.href = "mailto:lnreese4@gmail.com";
+}
