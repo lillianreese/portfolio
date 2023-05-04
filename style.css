@@ -72,15 +72,6 @@ h2 {
 	height: auto;
 }
 
-/*
-img {
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
-	height: auto;
-  }
-*/
-
 footer {
 	text-align: center;
 }
@@ -93,9 +84,12 @@ footer {
 	max-width:400px;
 }
 
-video {
+video, iframe {
 	max-width: 100%;
 	height: auto;
+	display: block;
+	margin: 0 auto;
+	max-width: auto;
 }
 .post {
 	margin: 2em 0;
@@ -116,6 +110,7 @@ video {
 .post .media video {
 	margin: 1em 0;
 }
+
 
 
 
